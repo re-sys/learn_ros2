@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_cpp_node[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 37%] Built target learn_lambda
+[ 62%] Built target person_node
+[ 87%] Built target demo_cpp_node
+[100%] [32m[1mLinking CXX executable learn_thread[0m
+[100%] Built target learn_thread
+-- Install configuration: ""
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/demo_cpp_node
+-- Set runtime path of "/home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/demo_cpp_node" to ""
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+-- Set runtime path of "/home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+-- Set runtime path of "/home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda" to ""
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+-- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml

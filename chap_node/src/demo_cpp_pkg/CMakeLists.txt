@@ -8,15 +8,25 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+
+include_directories(include)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 add_executable(demo_cpp_node src/cpp_node.cpp)
+add_executable(person_node src/person_node.cpp)
+add_executable(learn_lambda src/learn_lambda.cpp)
+add_executable(learn_thread src/learn_thread.cpp)
+
+ament_target_dependencies(person_node rclcpp)
+
 ament_target_dependencies(demo_cpp_node rclcpp)
+ament_target_dependencies(learn_lambda rclcpp)
 # replace the following line with the dependencies of your package
 # target_link_libraries(demo_cpp_node $(rclcpp_LIBRARIES))
 # target_link_libraries(demo_cpp_node $(rclcpp_LIBRARIES))
-install(TARGETS demo_cpp_node DESTINATION lib/${PROJECT_NAME})
+install(TARGETS demo_cpp_node person_node learn_lambda learn_thread DESTINATION lib/${PROJECT_NAME})
+# install (TARGETS person_node DESTINATION lib/${PROJECT_NAME})
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

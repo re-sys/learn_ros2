@@ -210,6 +210,45 @@ demo_cpp_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_cpp_node.dir/build.make CMakeFiles/demo_cpp_node.dir/build
 .PHONY : demo_cpp_node/fast
 
+#=============================================================================
+# Target rules for targets named person_node
+
+# Build rule for target.
+person_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 person_node
+.PHONY : person_node
+
+# fast build rule for target.
+person_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
+.PHONY : person_node/fast
+
+#=============================================================================
+# Target rules for targets named learn_lambda
+
+# Build rule for target.
+learn_lambda: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_lambda
+.PHONY : learn_lambda
+
+# fast build rule for target.
+learn_lambda/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/build
+.PHONY : learn_lambda/fast
+
+#=============================================================================
+# Target rules for targets named learn_thread
+
+# Build rule for target.
+learn_thread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_thread
+.PHONY : learn_thread
+
+# fast build rule for target.
+learn_thread/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/build
+.PHONY : learn_thread/fast
+
 src/cpp_node.o: src/cpp_node.cpp.o
 .PHONY : src/cpp_node.o
 
@@ -234,6 +273,78 @@ src/cpp_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_cpp_node.dir/build.make CMakeFiles/demo_cpp_node.dir/src/cpp_node.cpp.s
 .PHONY : src/cpp_node.cpp.s
 
+src/learn_lambda.o: src/learn_lambda.cpp.o
+.PHONY : src/learn_lambda.o
+
+# target to build an object file
+src/learn_lambda.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o
+.PHONY : src/learn_lambda.cpp.o
+
+src/learn_lambda.i: src/learn_lambda.cpp.i
+.PHONY : src/learn_lambda.i
+
+# target to preprocess a source file
+src/learn_lambda.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.i
+.PHONY : src/learn_lambda.cpp.i
+
+src/learn_lambda.s: src/learn_lambda.cpp.s
+.PHONY : src/learn_lambda.s
+
+# target to generate assembly for a file
+src/learn_lambda.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_lambda.dir/build.make CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.s
+.PHONY : src/learn_lambda.cpp.s
+
+src/learn_thread.o: src/learn_thread.cpp.o
+.PHONY : src/learn_thread.o
+
+# target to build an object file
+src/learn_thread.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o
+.PHONY : src/learn_thread.cpp.o
+
+src/learn_thread.i: src/learn_thread.cpp.i
+.PHONY : src/learn_thread.i
+
+# target to preprocess a source file
+src/learn_thread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/src/learn_thread.cpp.i
+.PHONY : src/learn_thread.cpp.i
+
+src/learn_thread.s: src/learn_thread.cpp.s
+.PHONY : src/learn_thread.s
+
+# target to generate assembly for a file
+src/learn_thread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_thread.dir/build.make CMakeFiles/learn_thread.dir/src/learn_thread.cpp.s
+.PHONY : src/learn_thread.cpp.s
+
+src/person_node.o: src/person_node.cpp.o
+.PHONY : src/person_node.o
+
+# target to build an object file
+src/person_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/src/person_node.cpp.o
+.PHONY : src/person_node.cpp.o
+
+src/person_node.i: src/person_node.cpp.i
+.PHONY : src/person_node.i
+
+# target to preprocess a source file
+src/person_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/src/person_node.cpp.i
+.PHONY : src/person_node.cpp.i
+
+src/person_node.s: src/person_node.cpp.s
+.PHONY : src/person_node.s
+
+# target to generate assembly for a file
+src/person_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/src/person_node.cpp.s
+.PHONY : src/person_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +361,21 @@ help:
 	@echo "... demo_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... demo_cpp_node"
+	@echo "... learn_lambda"
+	@echo "... learn_thread"
+	@echo "... person_node"
 	@echo "... src/cpp_node.o"
 	@echo "... src/cpp_node.i"
 	@echo "... src/cpp_node.s"
+	@echo "... src/learn_lambda.o"
+	@echo "... src/learn_lambda.i"
+	@echo "... src/learn_lambda.s"
+	@echo "... src/learn_thread.o"
+	@echo "... src/learn_thread.i"
+	@echo "... src/learn_thread.s"
+	@echo "... src/person_node.o"
+	@echo "... src/person_node.i"
+	@echo "... src/person_node.s"
 .PHONY : help
 
 

@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wufy/learn_ros2/chap_node/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg -- -j16 -l16
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[0.058s] [ 83%] Built target person_node
+[0.058s] [ 83%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[0.058s] [ 83%] Built target demo_cpp_node
+[0.295s] [01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.296s] [01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:9:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kauto[m[K’
+[0.296s]     9 |     std::[01;31m[Kauto[m[K is_even = [](int x) { return x % 2 == 0; };
+[0.296s]       |          [01;31m[K^~~~[m[K
+[0.296s] [01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:10:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kauto[m[K’
+[0.296s]    10 |     std::[01;31m[Kauto[m[K is_odd = [](int x) { return x % 2 == 1; };
+[0.296s]       |          [01;31m[K^~~~[m[K
+[0.297s] [01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:13:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_even[m[K’ was not declared in this scope
+[0.297s]    13 |     std::copy_if(v.begin(), v.end(), std::ostream_iterator<int>(std::cout, " "), [01;31m[Kis_even[m[K);
+[0.297s]       |                                                                                  [01;31m[K^~~~~~~[m[K
+[0.298s] [01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:17:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_odd[m[K’ was not declared in this scope
+[0.298s]    17 |     std::copy_if(v.begin(), v.end(), std::ostream_iterator<int>(std::cout, " "), [01;31m[Kis_odd[m[K);
+[0.298s]       |                                                                                  [01;31m[K^~~~~~[m[K
+[0.332s] gmake[2]: *** [CMakeFiles/learn_lambda.dir/build.make:76：CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o] 错误 1
+[0.332s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/learn_lambda.dir/all] 错误 2
+[0.332s] gmake: *** [Makefile:146：all] 错误 2
+[0.335s] Invoked command in '/home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wufy/learn_ros2/chap_node/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg -- -j16 -l16

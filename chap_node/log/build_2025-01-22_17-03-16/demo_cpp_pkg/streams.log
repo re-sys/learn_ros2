@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg -- -j16 -l16
+[0.093s] [100%] Built target demo_cpp_node
+[0.203s] Invoked command in '/home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg -- -j16 -l16
+[0.214s] Invoking command in '/home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg
+[0.220s] -- Install configuration: ""
+[0.221s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/lib/demo_cpp_pkg/demo_cpp_node
+[0.221s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.221s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.221s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.222s] -- Installing: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.222s] -- Up-to-date: /home/wufy/learn_ros2/chap_node/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.224s] Invoked command in '/home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wufy/learn_ros2/chap_node/build/demo_cpp_pkg

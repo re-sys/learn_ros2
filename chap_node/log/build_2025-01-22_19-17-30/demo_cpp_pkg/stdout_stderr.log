@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[ 83%] Built target person_node
+[ 83%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[ 83%] Built target demo_cpp_node
+[01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:9:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kauto[m[K’
+    9 |     std::[01;31m[Kauto[m[K is_even = [](int x) { return x % 2 == 0; };
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:10:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kauto[m[K’
+   10 |     std::[01;31m[Kauto[m[K is_odd = [](int x) { return x % 2 == 1; };
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:13:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_even[m[K’ was not declared in this scope
+   13 |     std::copy_if(v.begin(), v.end(), std::ostream_iterator<int>(std::cout, " "), [01;31m[Kis_even[m[K);
+      |                                                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/wufy/learn_ros2/chap_node/src/demo_cpp_pkg/src/learn_lambda.cpp:17:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_odd[m[K’ was not declared in this scope
+   17 |     std::copy_if(v.begin(), v.end(), std::ostream_iterator<int>(std::cout, " "), [01;31m[Kis_odd[m[K);
+      |                                                                                  [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/learn_lambda.dir/build.make:76：CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/learn_lambda.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
