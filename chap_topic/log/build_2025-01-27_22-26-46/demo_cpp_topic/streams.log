@@ -1,0 +1,34 @@
+[0.063s] Invoking command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic
+[0.126s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.279s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.355s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.356s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.361s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.405s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.410s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.882s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.916s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.926s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.459s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.460s] -- Configured cppcheck include dirs: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic/include
+[3.462s] -- Configured cppcheck exclude dirs and/or files: 
+[3.592s] -- Added test 'lint_cmake' to check CMake code style
+[3.969s] -- Added test 'uncrustify' to check C / C++ code style
+[3.971s] -- Configured uncrustify additional arguments: 
+[4.034s] -- Added test 'xmllint' to check XML markup files
+[4.129s] -- Configuring done
+[4.576s] -- Generating done
+[4.878s] -- Build files have been written to: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic
+[4.887s] Invoked command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic
+[4.903s] Invoking command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16
+[5.100s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle_node.dir/src/turtle_circle_node.cpp.o[0m
+[6.856s] [01m[K/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic/src/turtle_circle_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: No such file or directory
+[6.859s]     5 | #include [01;31m[K<turtlesim/msg/pose.hpp>[m[K
+[6.860s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.861s] compilation terminated.
+[6.862s] gmake[2]: *** [CMakeFiles/turtle_circle_node.dir/build.make:76: CMakeFiles/turtle_circle_node.dir/src/turtle_circle_node.cpp.o] Error 1
+[6.866s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_circle_node.dir/all] Error 2
+[6.867s] gmake: *** [Makefile:146: all] Error 2
+[6.870s] Invoked command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16

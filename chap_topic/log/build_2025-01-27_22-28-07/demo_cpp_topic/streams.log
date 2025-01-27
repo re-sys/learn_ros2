@@ -1,0 +1,25 @@
+[0.064s] Invoking command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16
+[0.257s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle_node.dir/src/turtle_circle_node.cpp.o[0m
+[5.636s] [100%] [32m[1mLinking CXX executable turtle_circle_node[0m
+[6.823s] [100%] Built target turtle_circle_node
+[6.850s] Invoked command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16
+[6.882s] Invoking command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic
+[6.891s] -- Install configuration: ""
+[6.910s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle_node
+[7.063s] -- Set runtime path of "/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle_node" to ""
+[7.106s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[7.228s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[7.328s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[7.395s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[7.461s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[7.525s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[7.601s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[7.669s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[7.735s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[7.807s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[7.872s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[7.973s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[8.080s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[8.147s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[8.238s] -- Installing: /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[8.314s] Invoked command in '/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic
