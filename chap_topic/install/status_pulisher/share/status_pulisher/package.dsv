@@ -1,0 +1,6 @@
+source;share/status_pulisher/hook/pythonpath.ps1
+source;share/status_pulisher/hook/pythonpath.dsv
+source;share/status_pulisher/hook/pythonpath.sh
+source;share/status_pulisher/hook/ament_prefix_path.ps1
+source;share/status_pulisher/hook/ament_prefix_path.dsv
+source;share/status_pulisher/hook/ament_prefix_path.sh

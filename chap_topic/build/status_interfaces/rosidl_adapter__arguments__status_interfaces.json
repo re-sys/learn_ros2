@@ -1,0 +1,6 @@
+{
+  "package_name": "status_interfaces",
+  "non_idl_tuples": [
+    "/home/wufy/learn_ros2/learn_ros2/chap_topic/src/status_interfaces:msg/SystemStatus.msg"
+  ]
+}

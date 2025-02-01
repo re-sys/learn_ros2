@@ -1,5 +1,0 @@
-  File "/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py", line 7
-    form queue import Queue
-         ^^^^^
-SyntaxError: invalid syntax
-

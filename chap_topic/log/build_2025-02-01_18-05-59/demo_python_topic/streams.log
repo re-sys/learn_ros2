@@ -1,0 +1,42 @@
+[0.472s] Invoking command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/src/demo_python_topic': PYTHONPATH=/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build install --record /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.597s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[0.597s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.597s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.597s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.597s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.598s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.598s] adding license file 'LICENSE'
+[0.599s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.599s] running build
+[0.599s] running build_py
+[0.599s] creating /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build
+[0.599s] creating /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib
+[0.599s] creating /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib/demo_python_topic
+[0.599s] copying demo_python_topic/novel_sub_node.py -> /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib/demo_python_topic
+[0.599s] copying demo_python_topic/novel_pub_node.py -> /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib/demo_python_topic
+[0.599s] copying demo_python_topic/__init__.py -> /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib/demo_python_topic
+[0.599s] running install
+[0.599s] running install_lib
+[0.600s] creating /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.600s] copying /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib/demo_python_topic/novel_sub_node.py -> /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.600s] copying /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.600s] copying /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.600s] byte-compiling /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_sub_node.py to novel_sub_node.cpython-310.pyc
+[0.601s] byte-compiling /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.601s] byte-compiling /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[0.601s] running install_data
+[0.601s] creating /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/share/ament_index
+[0.601s] creating /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/share/ament_index/resource_index
+[0.601s] creating /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.601s] copying resource/demo_python_topic -> /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/share/ament_index/resource_index/packages
+[0.601s] copying package.xml -> /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/share/demo_python_topic
+[0.601s] running install_egg_info
+[0.602s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.603s] running install_scripts
+[0.615s] Installing demo_python_topic script to /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/demo_python_topic
+[0.615s] Installing demo_python_topic_sub script to /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/demo_python_topic
+[0.616s] writing list of installed files to '/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/install.log'
+[0.640s] Invoked command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/src/demo_python_topic' returned '0': PYTHONPATH=/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/build install --record /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_python_topic/install.log --single-version-externally-managed install_data

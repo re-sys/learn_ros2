@@ -1,6 +1,0 @@
-[0.012s] Invoking command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16
-[0.017s] [0mCMake Error: The current CMakeCache.txt directory /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic/CMakeCache.txt is different than the directory /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.024s] [0mCMake Error: The source directory "/mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic" does not exist.
-[0.024s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.025s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
-[0.144s] Invoked command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16

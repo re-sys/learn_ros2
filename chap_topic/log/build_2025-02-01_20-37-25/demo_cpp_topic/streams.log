@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/status_pulisher:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16
+[0.166s] [100%] Built target turtle_circle_node
+[0.167s] [100%] Built target turtle_control
+[0.300s] Invoked command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/status_pulisher:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic -- -j16 -l16
+[0.310s] Invoking command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/status_pulisher:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic
+[0.316s] -- Install configuration: ""
+[0.316s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle_node
+[0.316s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[0.316s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[0.316s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[0.316s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[0.317s] -- Installing: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[0.317s] -- Up-to-date: /home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[0.318s] Invoked command in '/home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/status_pulisher:/home/wufy/learn_ros2/learn_ros2/chap_topic/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic
