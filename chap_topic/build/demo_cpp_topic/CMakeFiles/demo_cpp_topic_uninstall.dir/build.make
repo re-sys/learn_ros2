@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic
+CMAKE_SOURCE_DIR = /home/wufy/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic
+CMAKE_BINARY_DIR = /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic
 
 # Utility rule file for demo_cpp_topic_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/demo_cpp_topic_uninstall.dir/compiler_depend.make
 include CMakeFiles/demo_cpp_topic_uninstall.dir/progress.make
 
 CMakeFiles/demo_cpp_topic_uninstall:
-	/usr/bin/cmake -P /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 demo_cpp_topic_uninstall: CMakeFiles/demo_cpp_topic_uninstall
 demo_cpp_topic_uninstall: CMakeFiles/demo_cpp_topic_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/demo_cpp_topic_uninstall.dir/clean:
 .PHONY : CMakeFiles/demo_cpp_topic_uninstall.dir/clean
 
 CMakeFiles/demo_cpp_topic_uninstall.dir/depend:
-	cd /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic/CMakeFiles/demo_cpp_topic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wufy/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic /home/wufy/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic /home/wufy/learn_ros2/learn_ros2/chap_topic/build/demo_cpp_topic/CMakeFiles/demo_cpp_topic_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/demo_cpp_topic_uninstall.dir/depend
 

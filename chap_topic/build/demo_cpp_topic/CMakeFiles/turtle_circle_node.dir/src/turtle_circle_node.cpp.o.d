@@ -1,5 +1,5 @@
 CMakeFiles/turtle_circle_node.dir/src/turtle_circle_node.cpp.o: \
- /mnt/c/Users/wufy/Desktop/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic/src/turtle_circle_node.cpp \
+ /home/wufy/learn_ros2/learn_ros2/chap_topic/src/demo_cpp_topic/src/turtle_circle_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
