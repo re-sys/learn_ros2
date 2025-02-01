@@ -1,4 +1,0 @@
-[console_scripts]
-demo_python_topic = demo_python_topic.novel_pub_node:main
-demo_python_topic_sub = demo_python_topic.novel_sub_node:main
-

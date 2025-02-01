@@ -1,3 +1,0 @@
-[console_scripts]
-sys_status_publisher = status_pulisher.sys_status:main
-
