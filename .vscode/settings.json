@@ -73,6 +73,7 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "variant": "cpp",
-        "qapplication": "cpp"
+        "qapplication": "cpp",
+        "interfaces": "cpp"
     }
 }
