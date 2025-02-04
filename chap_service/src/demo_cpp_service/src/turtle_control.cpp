@@ -3,14 +3,38 @@
 #include <chrono>
 #include "turtlesim/msg/pose.hpp"
 #include "interfaces/srv/patrol.hpp"
+#include "rcl_interfaces/msg/set_parameters_result.hpp"
+
 using Patrol = interfaces::srv::Patrol;
 using namespace std::chrono_literals;
+using SetParametersResult = rcl_interfaces::msg::SetParametersResult;
 
 class TurtleControl : public rclcpp::Node
 {
 public:
-  TurtleControl() : Node("turtle_circle")
+  TurtleControl() : Node("turtle_control")
   {
+    //声明参数
+    this->declare_parameter("k", 1.0);
+    this->declare_parameter("max_speed", 1.0);
+    this->get_parameter("k", k_);
+    this->get_parameter("max_speed", max_speed_);
+    // this->set_parameter(rclcpp::Parameter("k", 2.0));
+    parameters_callback_handle_ = this->add_on_set_parameters_callback([&](const std::vector<rclcpp::Parameter> &parameters)->
+     SetParametersResult{
+      SetParametersResult result;
+      result.successful = true;
+      for(const auto &parameter : parameters){
+        RCLCPP_INFO(this->get_logger(), "Parameter name: %s, value: %f", parameter.get_name().c_str(), parameter.as_double());
+        if(parameter.get_name() == "k"){
+          k_ = parameter.as_double();
+        }
+        if(parameter.get_name() == "max_speed"){
+          max_speed_ = parameter.as_double();
+        }
+      }
+      return result;
+    });
     patrol_service_ = this->create_service<Patrol>("patrol", [&](const std::shared_ptr<Patrol::Request> request, const std::shared_ptr<Patrol::Response> response){
         if(
             (request->target_x>0 && request->target_x<12.0f)&&
@@ -80,6 +104,7 @@ private:
   rclcpp::Service<Patrol>::SharedPtr patrol_service_;
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr turtle_publisher_;
   rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr turtle_pose_subscriber_;
+  OnSetParametersCallbackHandle::SharedPtr parameters_callback_handle_;
   double target_x_{1.0};
   double target_y_{1.0};
   double k_{1.0};

@@ -11,6 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/resource', ['resource/default.jpg']),
+        ('share/' + package_name + '/launch', ['launch/demo.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

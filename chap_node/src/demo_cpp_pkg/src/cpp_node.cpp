@@ -1,6 +1,7 @@
 // This is a simple C++ node that publishes a message to the topic "chatter"
 
 #include <rclcpp/rclcpp.hpp>
+#include <std_msgs/msg/string.hpp>
 // #include <std_msgs/msg/string.hpp>
 
 class CppNode : public rclcpp::Node
