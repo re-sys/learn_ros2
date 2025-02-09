@@ -5,7 +5,9 @@
     <xacro:property name="base_length" value="0.12"/>
     <xacro:property name="base_radius" value="0.1"/>
     <xacro:property name="wheel_radius" value="0.032"/>
-
+  <!-- base_link to livox_frame -->
+    <xacro:arg name="xyz" default="0.0 0.0 0.10" />
+    <xacro:arg name="rpy" default="0 0 0" />
     <!--基础部分 base_link-->
     <xacro:include filename="$(find demo_description)/urdf/fishbot/base.urdf.xacro"/>
     <!--传感器部分-->
@@ -19,9 +21,10 @@
     <xacro:include filename="$(find demo_description)/urdf/fishbot/plugins/gazebo_control_plugin.xacro"/>
     <xacro:include filename="$(find demo_description)/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro"/>
     <xacro:include filename="$(find demo_description)/urdf/fishbot/fishbot.ros2_control.xacro"/>
+    <!-- <xacro:include filename="$(find demo_description)/urdf/fishbot/plugins/gazebo_laser_imu_plugin.xacro"/> -->
 
     <xacro:base_link length="${base_length}" radius="${base_radius}"/>
-    <xacro:imu_link xyz="0 0 0.02"/>
+    <xacro:imu_link xyz="0 0 0.04"/>
     <xacro:camera_link xyz="${base_radius} 0 0.075"/>
     <xacro:laser_link xyz="0.0 0 0.10"/>
 
@@ -33,4 +36,21 @@
     <!-- <xacro:gazebo_control_plugin/> -->
     <xacro:gazebo_sensor_plugin/>
     <xacro:fishbot_ros2_control/>
+    <!-- mid360_imu plugin -->
+    <!-- https://github.com/ros-simulation/gazebo_ros_pkgs/wiki/ROS-2-Migration:-IMU-Sensors -->
+    <!-- <xacro:gazebo_imu_plugin/> -->
+
+    <!-- Livox-Mid360  -->
+    <!-- <xacro:include filename="$(find ros2_livox_simulation)/urdf/mid360.xacro" />
+    <xacro:mid360 name="livox_frame" parent="base_link" topic="/livox/lidar">
+        <origin xyz="$(arg xyz)" rpy="$(arg rpy)" />
+    </xacro:mid360> -->
+
+    <!-- 设置材质 -->
+    <gazebo reference="imu_link">
+        <material>Gazebo/BuildingFrame</material>
+    </gazebo>
+  <!-- <gazebo reference="livox_frame">
+    <material>Gazebo/LightBlueLaser</material>
+  </gazebo> -->
 </robot>

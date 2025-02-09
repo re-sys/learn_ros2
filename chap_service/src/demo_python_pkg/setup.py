@@ -12,6 +12,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/resource', ['resource/default.jpg']),
         ('share/' + package_name + '/launch', ['launch/demo.launch.py']),
+        ('share/'+package_name +"/config", ['config/waypoints.yaml']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

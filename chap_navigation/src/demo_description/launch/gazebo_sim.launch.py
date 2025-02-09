@@ -40,7 +40,10 @@ def generate_launch_description():
         launch_description_source=launch.launch_description_sources.PythonLaunchDescriptionSource(
             os.path.join(get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')
         ),
-        launch_arguments=[('world', default_gazebo_path),('verbose', 'true')]
+        launch_arguments={
+            'world': default_gazebo_path,
+            'verbose': 'true'
+        }.items()
     )
     action_spawn_entity = launch_ros.actions.Node(
         package='gazebo_ros',

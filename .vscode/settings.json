@@ -74,6 +74,11 @@
         "typeindex": "cpp",
         "variant": "cpp",
         "qapplication": "cpp",
-        "interfaces": "cpp"
+        "interfaces": "cpp",
+        "*.ipp": "cpp",
+        "any": "cpp",
+        "coroutine": "cpp",
+        "regex": "cpp",
+        "source_location": "cpp"
     }
 }
